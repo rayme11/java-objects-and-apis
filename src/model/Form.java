@@ -4,7 +4,8 @@ public abstract class Form {
 
     abstract double CalculateArea();
 
-    public void print(){
+    public double print(){
         System.out.println("I am a form");
+        return 0;
     }
 }
