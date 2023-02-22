@@ -11,5 +11,6 @@ public abstract class CheckingAbstraction extends Form {
     @Override
     public double print() {
         return length * width;
+
     }
 }
